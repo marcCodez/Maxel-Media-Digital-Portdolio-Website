@@ -28,7 +28,7 @@ function Navbar() {
                        </Link>
                    </li>
               
-                        <Link to="/" className="navbar-logo">
+                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                                 <img src="/images/Maxel Media Logo.png" width="300" height="100" />
                         </Link>
     
