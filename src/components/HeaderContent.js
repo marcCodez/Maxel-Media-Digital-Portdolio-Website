@@ -6,7 +6,7 @@ import '../App.css';
 function HeaderContent() {
     return (
         <div className='header-container'>
-            <video src="/videos/Showreel.mp4" autoPlay loop muted />
+            <video src="/videos/Showreel-cut.mp4" autoPlay loop muted />
             <h1>MAX PASSION. MAX QUALITY.</h1>
            <div classNAme='hero-btns'>
                 <Button
