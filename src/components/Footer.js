@@ -6,11 +6,28 @@ function Footer() {
     return (
         <div className='footer-container'>
             <section className='socials'>
-                <Link className='socials-link'>
-                    <i className='fa fa-facebook-square'></i>
-                    <i className='fa fa-instagram'></i>
-                    <i className='fa fa-youtube-square'></i>
+                <Link 
+                    className='socials-link'
+                    to='/'
+                    target='_blank'
+                    aria-label='Youtube'
+                    >
+                    <i className='fa fa-facebook-square'/>
                 </Link>
+                <Link
+                    to='/'
+                    target='_blank'
+                    aria-label='Instagram'
+                >
+                 <i className='fa fa-instagram'/>
+                 </Link>
+                 <Link
+                    to='/'
+                    target='_blank'
+                    aria-label='Youtube'
+                >
+                 <i className='fa fa-youtube'/>
+                 </Link>
                 <p>© Marc Pulumbarit 2021</p>
             </section>
         </div>
