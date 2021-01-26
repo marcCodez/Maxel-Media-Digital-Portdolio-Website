@@ -4,8 +4,10 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='footer-container'>
+        <footer className='footer-container'>
+            <div className='test'>
             <section className='socials'>
+            <div className='icon-socials'>
                 <Link 
                     className='socials-link'
                     to='/'
@@ -15,6 +17,7 @@ function Footer() {
                     <i className='fa fa-facebook-square'/>
                 </Link>
                 <Link
+                    className='socials-link'
                     to='/'
                     target='_blank'
                     aria-label='Instagram'
@@ -22,15 +25,19 @@ function Footer() {
                  <i className='fa fa-instagram'/>
                  </Link>
                  <Link
+                    className='socials-link'
                     to='/'
                     target='_blank'
                     aria-label='Youtube'
                 >
                  <i className='fa fa-youtube'/>
                  </Link>
-                <p>© Marc Pulumbarit 2021</p>
-            </section>
-        </div>
+           
+                 </div>
+                 </section>
+                 </div>
+                 <p className="copyright">© Marc Pulumbarit 2021</p>
+        </footer>
     )
 }
 
