@@ -8,30 +8,33 @@ function Footer() {
             <div className='test'>
             <section className='socials'>
             <div className='icon-socials'>
-                <Link 
+                <a 
                     className='socials-link'
+                    href='https://www.facebook.com/MaxeIMedia/'
                     to='/'
                     target='_blank'
                     aria-label='Youtube'
                     >
                     <i className='fa fa-facebook-square'/>
-                </Link>
-                <Link
+                </a>
+                <a
                     className='socials-link'
+                    href='https://www.instagram.com/maxel_media/'
                     to='/'
                     target='_blank'
                     aria-label='Instagram'
                 >
                  <i className='fa fa-instagram'/>
-                 </Link>
-                 <Link
+                 </a>
+                 <a
                     className='socials-link'
+                    href='https://www.youtube.com/channel/UCEUMWlju-dbYVeij4RwmVRQ'
                     to='/'
                     target='_blank'
                     aria-label='Youtube'
                 >
                  <i className='fa fa-youtube'/>
-                 </Link>
+                 </a>
            
                  </div>
                  </section>

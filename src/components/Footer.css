@@ -1,7 +1,7 @@
 .footer-container {
 	background-color: black;
 	display: flex;
-	padding: 1rem 0 1rem 0;
+	padding: 1rem 0 2rem 0;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -12,13 +12,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 90%;
-	max-width: 900px;
+	width: 100%;
+	margin-bottom: 25px;
 }
 
 .socials-link {
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .icon-socials {
