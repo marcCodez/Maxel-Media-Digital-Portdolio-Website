@@ -1,6 +1,6 @@
 import HeaderContent from '../HeaderContent'
 import React from 'react'
-import '../../App.css';
+import '../../App.scss';
 import Footer from '../Footer';
 
 function Home() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeaderContent.css'
 import {Button} from 'react-bootstrap';
-import '../App.css';
+import '../App.scss';
 
 function HeaderContent() {
     return (
