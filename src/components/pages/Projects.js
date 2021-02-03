@@ -1,17 +1,28 @@
 import React from 'react'
 import '../../App.scss'
-import Footer from '../Footer';
+import ReactPlayer from 'react-player'
+
 
 function Projects() {
     return (
-        <div>
-            <body>
+        <>
+            <section>
+                <div className='container'>
+                    <h2>My Work</h2>
+                    <p>Check out some of my projects</p>
+                
+                    <div className='projects'>
+                        <div className='project'>
+                            <div class='project-vid'>
+                             
+                            </div>
+                        </div>    
 
+                    </div>
+                </div>
+            </section>
       
-            <h1>projects</h1>
-            <Footer />
-            </body>
-        </div>
+        </>
     )
 }
 
