@@ -1,9 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
+import ReactPlayer from 'react-player'
 
-function ProjectVideo() {
+
+function ProjectVideo(props) {
+    const [play, setPlay] = useState(false);
+    const handleMouseEnter = () => {
+        setPlay(true);
+    };
+    const handleMouseLeave = () => {
+        setPlay(false);
+    }
     return (
-        <div>
-            
+        <div onMouseEnter={handleMouseEnter} onMouseOut={handleMouseLeave}>
+            <ReactPlayer
+                width="100%"
+                playing={play}
+                pip
+                controls="false"
+                config={{ file: { forceHLS: true } }}
+                url={props.url}
+            />
         </div>
     )
 }

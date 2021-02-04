@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.scss'
 import ReactPlayer from 'react-player'
+import ProjectVideo from '../ProjectVideo'
 
 
 function Projects() {
@@ -13,9 +14,7 @@ function Projects() {
                 
                     <div className='projects'>
                         <div className='project'>
-                            <div class='project-vid'>
-                             
-                            </div>
+                             <ProjectVideo  url='http://www.youtube.com/watch?v=Z12UvF82BJ0&t=0m25s'/>
                         </div>    
 
                     </div>
