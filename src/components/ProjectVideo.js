@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import ReactPlayer from 'react-player'
+import '../App.scss'
 
 
 function ProjectVideo(props) {
@@ -11,7 +12,7 @@ function ProjectVideo(props) {
         setPlay(false);
     }
     return (
-        <div onMouseEnter={handleMouseEnter} onMouseOut={handleMouseLeave}>
+        <div className='project-video' onMouseEnter={handleMouseEnter} onMouseOut={handleMouseLeave}>
             <ReactPlayer
                 width="100%"
                 playing={play}
