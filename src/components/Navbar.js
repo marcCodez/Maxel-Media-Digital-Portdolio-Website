@@ -10,8 +10,9 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
     return (
         <>
-           <nav className='navbar'>
-               <div className='navbar-container'>
+           <header id='header-home'>
+             <div className='container'>
+               <div id='navbar'>
             
                <div className='menu-icon' onClick={handleClick}>
                    <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
@@ -29,7 +30,7 @@ function Navbar() {
                    </li>
               
                         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                                <img src="/images/Maxel Media Logo.png" width="300" height="117" />
+                                <img src="/images/max-new-logo.png" id="logo" />
                         </Link>
     
                    <li className='nav-item'>
@@ -44,7 +45,8 @@ function Navbar() {
                    </li>
                </ul>
                </div>
-            </nav> 
+               </div>
+            </header> 
         </>
     )
 }
