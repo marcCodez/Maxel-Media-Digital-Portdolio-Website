@@ -43,3 +43,11 @@
 	align-items: center;
 	height: 80px;
 }
+
+// About
+#about {
+	.about-info {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
