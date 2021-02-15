@@ -48,6 +48,25 @@
 #about {
 	.about-info {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+			"aboutimg heading"
+			"aboutimg aboutdesc";
+		gap: 1rem;
+	}
+
+	//Grid Area
+	.heading {
+		grid-area: heading;
+		align-self: center;
+	}
+
+	.about-image {
+		grid-area: aboutimg;
+		height: 600px;
+		width: 460px;
+	}
+
+	.about-description {
+		grid-area: aboutdesc;
 	}
 }
