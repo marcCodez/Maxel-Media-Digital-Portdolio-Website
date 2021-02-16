@@ -76,11 +76,11 @@
 	.text-fields {
 		display: grid;
 		grid-template-areas:
-			"name"
-			"subject"
-			"email"
-			"message";
+			"name subject"
+			"email phone"
+			"message message";
 		gap: 1.2rem;
+		margin-bottom: 3.5rem;
 
 		// Grid Areas
 		.name-input {
@@ -92,9 +92,12 @@
 		.subject-input {
 			grid-area: subject;
 		}
+		.phone-input {
+			grid-area: phone;
+		}
 		.message-input {
 			grid-area: message;
-			height: 150px;
+			height: 130px;
 		}
 	}
 }
