@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './HeaderContent.css'
-import {Button} from 'react-bootstrap';
 import '../App.scss';
 
 function HeaderContent() {
@@ -8,13 +8,15 @@ function HeaderContent() {
         <div className='header-container'>
             <video src="/videos/Showreel-cut.mp4" autoPlay loop muted />
            <div classNAme='hero-btns'>
-                <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
+               <Link
+               to='/contact'
+               >
+                <button
+                className='btn-light'
                 >
-                    Get Started!
-                </Button>
+                    Let's Collab!
+                </button>
+                </Link>
            </div>
 
         </div>

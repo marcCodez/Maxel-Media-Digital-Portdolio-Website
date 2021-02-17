@@ -12,7 +12,7 @@ function Projects() {
                     <h2 className='section-title'>My Work</h2>
                     <div className='underline'></div>
                     <p className='sub-text'>Check out some of my projects</p>
-                </div>
+             
                 
                     <div className='projects'>
                         <div className='project'>
@@ -51,6 +51,7 @@ function Projects() {
                             <ProjectVideo  url='https://www.youtube.com/watch?v=O9E1153wZx4'/>
                         </div>   
 
+                    </div>
                     </div>
             </section>
       
