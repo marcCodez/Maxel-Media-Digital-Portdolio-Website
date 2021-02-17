@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 
@@ -19,29 +19,49 @@ function Navbar() {
                </div>
                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                    <li className='nav-item'>
-                       <Link to='/' className='nav-links' onClick={closeMobileMenu} >
-                           Home
-                       </Link>
+                       <NavLink 
+                       exact to='/' 
+                       className='nav-links'  
+                       activeClassName='nav-active'
+                       onClick={closeMobileMenu}>
+                          Home 
+                       </NavLink>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/about' className='nav-links' onClick={closeMobileMenu} >
+                       <NavLink 
+                       exact to='/about' 
+                       className='nav-links' 
+                       activeClassName='nav-active'
+                       onClick={closeMobileMenu}>
                            About
-                       </Link>
+                       </NavLink>
                    </li>
               
-                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                        <NavLink 
+                        exact to="/" 
+                        className="navbar-logo" 
+                        activeClassName='nav-active'
+                        onClick={closeMobileMenu}>
                                 <img src="/images/max-new-logo.png" id="logo" />
-                        </Link>
+                        </NavLink>
     
                    <li className='nav-item'>
-                       <Link to='/projects' className='nav-links' onClick={closeMobileMenu} >
+                       <NavLink 
+                       exact to='/projects' 
+                       className='nav-links' 
+                       activeClassName='nav-active'
+                       onClick={closeMobileMenu} >
                            Projects
-                       </Link>
+                       </NavLink>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/contact' className='nav-links' onClick={closeMobileMenu} >
+                       <NavLink 
+                       exact to='/contact' 
+                       className='nav-links' 
+                       activeClassName='nav-active'
+                       onClick={closeMobileMenu} >
                            Contact
-                       </Link>
+                       </NavLink>
                    </li>
                </ul>
                </div>

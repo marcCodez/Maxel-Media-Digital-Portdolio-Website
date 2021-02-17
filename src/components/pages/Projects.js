@@ -9,8 +9,9 @@ function Projects() {
         <>
             <section class="text-center py-3">
                 <div className='container'>
-                    <h2>My Work</h2>
-                    <p>Check out some of my projects</p>
+                    <h2 className='section-title'>My Work</h2>
+                    <div className='underline'></div>
+                    <p className='sub-text'>Check out some of my projects</p>
                 </div>
                 
                     <div className='projects'>
