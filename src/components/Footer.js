@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Footer.css'
 
 function Footer() {
     return (
         <footer className='footer-container'>
-            <div className='test'>
-            <section className='socials'>
-            <div className='icon-socials'>
+            <div className='footer-content container'>
                 <a 
                     className='socials-link'
                     href='https://www.facebook.com/MaxeIMedia/'
@@ -35,9 +32,6 @@ function Footer() {
                 >
                  <i className='fa fa-youtube'/>
                  </a>
-           
-                 </div>
-                 </section>
                  </div>
                  <p className="copyright">© Marc Pulumbarit 2021</p>
         </footer>

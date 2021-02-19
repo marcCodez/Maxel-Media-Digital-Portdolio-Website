@@ -7,7 +7,7 @@ function Contact() {
             <div className='container'>
                 <h1 className='section-title'>CONTACT MAXEL MEDIA</h1>
                 <div className='underline'></div>
-                <p className='sub-text'>Submit an enquiry below or alternatively pm Maxel Media on Instagram or Facebook</p>
+                <p className='sub-text'>Alternatively PM on Instagram or Facebook</p>
                     <form method="POST">
                         <div className='text-fields'>
                             <input type='text' className='text-input name-input' name='name' placeholder='Full Name'/>

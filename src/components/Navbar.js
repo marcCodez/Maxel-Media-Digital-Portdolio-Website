@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import './Navbar.css';
+
 
 
 function Navbar() {
@@ -11,7 +11,6 @@ function Navbar() {
     return (
         <>
            <header id='header-home'>
-             <div className='container'>
                <div id='navbar'>
             
                <div className='menu-icon' onClick={handleClick}>
@@ -64,7 +63,6 @@ function Navbar() {
                        </NavLink>
                    </li>
                </ul>
-               </div>
                </div>
             </header> 
         </>
