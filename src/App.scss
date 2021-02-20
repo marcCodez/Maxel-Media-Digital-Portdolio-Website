@@ -1,6 +1,5 @@
 @import "styles/config";
 @import "styles/item_grid";
-@import "styles/media";
 @import "styles/utilities";
 
 // General Styles
@@ -200,3 +199,6 @@ video {
 	font-size: 30px;
 	padding: 0.8rem;
 }
+
+// Import Media Queries
+@import "styles/media";

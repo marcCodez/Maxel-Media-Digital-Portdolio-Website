@@ -6,7 +6,7 @@
 	}
 	#about {
 		.about-info {
-			display: block !important;
+			display: block;
 
 			.about-image {
 				width: 100%;
@@ -19,17 +19,17 @@
 	}
 
 	#navbar .nav-menu {
-		display: block !important;
-		grid-gap: inherit !important;
+		display: block;
+		grid-gap: inherit;
 	}
 
 	#navbar .nav-links {
-		display: block !important;
-		margin-bottom: 3rem !important;
-		padding: 2rem !important;
+		display: block;
+		margin-bottom: 3rem;
+		padding: 2rem;
 
 		&:hover {
-			color: black !important;
+			color: black;
 		}
 	}
 }
