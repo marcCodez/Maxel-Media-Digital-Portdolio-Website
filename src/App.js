@@ -13,6 +13,7 @@ function App() {
   return (
     <>
     <Router>
+      <div className="app-container">
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contact' component={Contact} />
       </Switch>
       <Footer/>
+      </div>
     </Router>
       
     </>

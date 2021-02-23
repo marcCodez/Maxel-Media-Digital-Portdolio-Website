@@ -184,6 +184,7 @@ video {
 	justify-content: center;
 	align-items: center;
 	color: white;
+	margin-top: auto;
 }
 
 .footer-content {
@@ -198,6 +199,12 @@ video {
 	color: white;
 	font-size: 30px;
 	padding: 0.8rem;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 // Import Media Queries
