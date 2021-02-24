@@ -8,7 +8,8 @@ function Contact() {
                 <h1 className='section-title'>CONTACT MAXEL MEDIA</h1>
                 <div className='underline'></div>
                 <p className='sub-text'>Alternatively PM on Instagram or Facebook</p>
-                    <form name='contact' method="POST" data-netlify="true">
+                    <form name='contact' method='POST' data-netlify='true' >
+                        <input type='hidden' name='form-name' value='contact' />
                         <div className='text-fields'>
                             <input type='text' className='text-input name-input' name='name' placeholder='Full Name'/>
                             <input type='email' className='text-input email-input' name='email' placeholder='Email'/>
