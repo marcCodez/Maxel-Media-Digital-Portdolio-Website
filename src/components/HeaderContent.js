@@ -5,7 +5,7 @@ import '../App.scss';
 function HeaderContent() {
     return (
         <div className='header-container'>
-            <video src="/videos/Showreel-cut.mp4" autoPlay loop muted />
+            <video src="/videos/Showreel-cut-compressed.mp4" autoPlay loop muted />
            <div classNAme='hero-btns'>
                <Link
                to='/contact'
