@@ -19,6 +19,10 @@
 	align-items: center;
 }
 
+.main-content {
+	padding-top: 140px;
+}
+
 // Header
 #header-home {
 	// Header Home
@@ -28,7 +32,9 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
-	position: sticky;
+	position: fixed;
+	width: 100%;
+	//position: sticky;
 	top: 0;
 	z-index: 999;
 }
@@ -79,6 +85,14 @@
 			font-size: 1.5rem;
 			transition: all 0.2s ease-out;
 		}
+	}
+
+	.navbar-logo.mobile {
+		display: none;
+	}
+
+	.navbar-logo.desktop {
+		display: block;
 	}
 }
 
@@ -135,7 +149,8 @@ video {
 		justify-self: center;
 	}
 }
-
+// do you think it is the issue with style?
+// umm maybe i have to compress the video?? file too big  maybe??
 // Contact Page
 #contact {
 	.text-fields {

@@ -12,6 +12,14 @@ function Navbar() {
         <>
            <header id='header-home'>
                <div id='navbar'>
+
+               <NavLink 
+                        exact to="/" 
+                        className="navbar-logo mobile" 
+                        activeClassName='nav-active'
+                        onClick={closeMobileMenu}>
+                                <img src="/images/max-new-logo.png" id="logo" />
+                        </NavLink>
             
                <div className='menu-icon' onClick={handleClick}>
                    <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
@@ -38,11 +46,12 @@ function Navbar() {
               
                         <NavLink 
                         exact to="/" 
-                        className="navbar-logo" 
+                        className="navbar-logo desktop" 
                         activeClassName='nav-active'
                         onClick={closeMobileMenu}>
                                 <img src="/images/max-new-logo.png" id="logo" />
                         </NavLink>
+
     
                    <li className='nav-item'>
                        <NavLink 
