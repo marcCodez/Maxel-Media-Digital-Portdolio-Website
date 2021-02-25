@@ -1,3 +1,0 @@
-/public/videos filter=lfs diff=lfs merge=lfs -text
-/public/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
-/public/videos/Showreel.mp4 filter=lfs diff=lfs merge=lfs -text
