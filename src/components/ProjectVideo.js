@@ -4,18 +4,12 @@ import '../App.scss'
 
 
 function ProjectVideo(props) {
-    const [play, setPlay] = useState(false);
-    const handleMouseEnter = () => {
-        setPlay(true);
-    };
-    const handleMouseLeave = () => {
-        setPlay(false);
-    }
+
     return (
-        <div className='project-video' onMouseEnter={handleMouseEnter} onMouseOut={handleMouseLeave}>
+        <div className='project-video'>
             <ReactPlayer
                 width="100%"
-                playing={play}
+                playing='false'
                 pip
                 controls="false"
                 config={{ file: { forceHLS: true } }}
