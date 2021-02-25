@@ -9,10 +9,8 @@ function ProjectVideo(props) {
         <div className='project-video'>
             <ReactPlayer
                 width="100%"
-                playing='false'
                 pip
                 controls="false"
-                config={{ file: { forceHLS: true } }}
                 url={props.url}
             />
         </div>
