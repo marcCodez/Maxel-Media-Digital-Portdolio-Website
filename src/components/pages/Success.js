@@ -4,7 +4,7 @@ function Success() {
     return (
         <div className='success-container space-top pb-3'>
             <img className='green-tick' src='/images/green-tick.png' />
-            <h1> Form Successfully Submitted!</h1>
+            <h2> Form Successfully Submitted!</h2>
         </div>
     )
 }
