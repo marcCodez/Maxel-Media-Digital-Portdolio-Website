@@ -220,6 +220,21 @@ video {
 	padding: 0.8rem;
 }
 
+// Success page
+.success-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	width: 100%;
+
+	.green-tick {
+		height: 140px;
+		width: 140px;
+	}
+}
+
 .app-container {
 	display: flex;
 	flex-direction: column;
