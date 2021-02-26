@@ -35,12 +35,12 @@ const pauseVideo = () => {
                        <i class="fa fa-play-circle play-button"></i>
                 </a>
 
-                <a 
+                {/* <a 
                     onClick={pauseVideo}
                     aria-label='Play-button'
                     >
                        <i class="fa fa-pause-circle pause-button"></i>
-                </a>
+                </a> */}
                 </div>
            </div>
 

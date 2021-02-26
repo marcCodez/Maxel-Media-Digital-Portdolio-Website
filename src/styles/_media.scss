@@ -64,13 +64,13 @@
 				display: flex;
 				justify-content: space-around;
 				align-items: center;
-
+				cursor: pointer;
 				.play-button,
 				.pause-button {
 					display: inline;
 					color: white;
 					font-size: 80px;
-					cursor: pointer;
+
 					&:hover {
 						color: grey;
 					}
