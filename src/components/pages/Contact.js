@@ -3,7 +3,7 @@ import '../../App.scss'
 
 function Contact() {
     return (
-        <section id='contact' class='text-center py-3'>
+        <section id='contact' class='text-center pb-3 space-top'>
             <div className='container'>
                 <h1 className='section-title'>CONTACT MAXEL MEDIA</h1>
                 <div className='underline'></div>

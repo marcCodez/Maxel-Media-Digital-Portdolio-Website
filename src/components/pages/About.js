@@ -3,7 +3,7 @@ import '../../App.scss'
 
 function About() {
     return (
-        <section id='about' className='text-center py-3'>
+        <section id='about' className='text-center pb-3 space-top'>
             <div className='container'>
                 <div className='about-info'>
                 <div className='heading'>

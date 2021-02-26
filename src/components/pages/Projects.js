@@ -7,7 +7,7 @@ import ProjectVideo from '../ProjectVideo'
 function Projects() {
     return (
         <>
-            <section class="text-center py-3">
+            <section class="text-center pb-3 space-top">
                 <div className='container'>
                     <h2 className='section-title'>My Work</h2>
                     <div className='underline'></div>
