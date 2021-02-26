@@ -116,6 +116,11 @@ video {
 
 	.hero-btns {
 		z-index: 2;
+
+		.play-button,
+		.pause-button {
+			display: none;
+		}
 	}
 }
 
