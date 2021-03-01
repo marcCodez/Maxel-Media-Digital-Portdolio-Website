@@ -85,7 +85,18 @@
 	// }
 }
 
+@media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+	.header-container.space-top {
+		.hero-btns {
+			.vid-controls {
+				display: none;
+			}
+		}
+	}
+}
+
 // Smartphones
+
 @media (max-width: 500px) {
 	//Projects
 	// Stack grid
