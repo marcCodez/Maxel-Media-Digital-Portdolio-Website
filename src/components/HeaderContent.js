@@ -14,9 +14,10 @@ const pauseVideo = () => {
     vidRef.current.pause()
 }
 
+
     return (
         <div className='header-container space-top'>
-            <video collapse={false} ref={vidRef} src="/videos/Showreel-cut-compressed.mp4" autoPlay loop muted/>
+            <video collapsable={ false } ref={vidRef} src="/videos/Showreel-cut-compressed.mp4" autoPlay loop muted/>
            <div className='hero-btns'>
                <Link
                to='/contact'
