@@ -33,7 +33,7 @@ function Footer() {
                  <i className='fa fa-youtube'/>
                  </a>
                  </div>
-                 <p className="copyright">© Marc Pulumbarit 2021</p>
+                 <p className="copyright">© Marc 2021</p>
         </footer>
     )
 }
