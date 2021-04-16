@@ -15,6 +15,12 @@ function Projects() {
                 
                     <div className='projects'>
                     <div className='project'>
+                             <ProjectVideo  url='https://youtu.be/8tsU01FNO8I'/> 
+                        </div> 
+                    <div className='project'>
+                             <ProjectVideo  url='https://youtu.be/qezBKmfDa3Y'/> 
+                        </div>
+                    <div className='project'>
                              <ProjectVideo  url='https://youtu.be/8Dk2215smvw'/> 
                         </div> 
                     <div className='project'>
