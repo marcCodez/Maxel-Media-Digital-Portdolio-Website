@@ -250,5 +250,9 @@ video {
 	min-height: 100vh;
 }
 
+.content-wrap{
+	flex:1;
+}
+
 // Import Media Queries
 @import "styles/media";
