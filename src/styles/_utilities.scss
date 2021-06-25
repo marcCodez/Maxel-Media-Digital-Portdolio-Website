@@ -10,7 +10,7 @@
 }
 
 .space-top.pb-3 {
-	padding-top: 180px;
+	 padding-top: 180px;
 }
 
 // Padding
@@ -72,8 +72,9 @@
 		@extend %btn-shared;
 		color: black;
 		background-color: #f4f4f4;
-		padding: 2.5rem;
+		padding: 1rem;
 		font-size: 1.5rem;
+		border-radius: 5px;
 		&:hover {
 			background-color: black;
 			color: white;
@@ -88,7 +89,7 @@
 	display: block;
 	padding-bottom: 0.5rem;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 350;
 }
 
 .underline {

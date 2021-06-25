@@ -2,45 +2,103 @@
 @import "styles/item_grid";
 @import "styles/utilities";
 
+
 // General Styles
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans", sans-serif;
+	
 }
 
 // Logo
 #logo {
-	width: 230px;
-	height: 120px;
+	width: 10rem;
+	height: 5rem;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
+
 }
 
 // Header
-#header-home {
-	// Header Home
-	background: black;
-	height: 140px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.2rem;
-	position: fixed;
-	width: 100%;
-	//position: sticky;
-	top: 0;
-	z-index: 999;
+
+  .nav-container {
+background: white;
+
+
+	.navbar-link {
+		color: black;
+
+
+		&:hover {
+			color: grey;
+		}
+	  }
+
+  
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    //  color: white;
 }
 
+  a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+  }
+
+  .navbar-brand {
+	  margin-right: 0 !important;
+  }
+
+
+ 
+
+
 // Navbar
+.effect .navbar-link:before {
+	content: "[";
+	left: -5px;
+  }
+  
+  .effect .navbar-link:after {
+	content: "]";
+	right: -5px;
+  }
+  
+  .effect .navbar-link:before,
+  .effect .navbar-link:after {
+	position: relative;
+	opacity: 0;
+	color: black;
+	top: -1px;
+	transition: all .5s;
+  }
+  
+  .effect .navbar-link:hover:before,
+  .effect .navbar-link:hover:after {
+	opacity: 0.7;
+  }
+  
+  .effect .navbar-link:hover:before {
+	left: -20px;
+  }
+  
+  .effect .navbar-link:hover:after {
+	right: -20px;
+  }
+
+  
 #navbar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 80px;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// height: 80px;
+
+	
 
 	.fa-bars {
 		color: white;
@@ -53,6 +111,7 @@
 
 	.nav-menu {
 		display: grid;
+		align-items: center;
 		grid-template-columns: repeat(5, auto);
 		grid-gap: 50px;
 		list-style: none;
@@ -62,25 +121,27 @@
 
 	.nav-item {
 		height: 100px;
+		position: relative;
 
-		.nav-active {
-			text-decoration: underline;
-		}
+		// .nav-active {
+		// 	text-decoration: underline;
+		// }
 	}
 
 	.nav-links {
 		color: #fff;
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-		padding: 0.5rem 1rem;
+		// display: flex;
+		// align-items: center;
+		// text-decoration: none;
+		// padding: 0.5rem 1rem;
 		height: 100%;
+		position: relative;
 
-		&:hover {
-			color: $medium-color;
-			font-size: 1.5rem;
-			transition: all 0.2s ease-out;
-		}
+		// &:hover {
+		// 	color: $medium-color;
+		// 	font-size: 1.5rem;
+		// 	transition: all 0.2s ease-out;
+		// }
 	}
 
 	.navbar-logo.mobile {
@@ -111,8 +172,8 @@ video {
 }
 
 .header-container.space-top {
-	padding-top: 140px;
-	background-color: black;
+	// padding-top: 140px;
+	// background-color: black;
 
 	.hero-btns {
 		z-index: 2;
@@ -215,7 +276,7 @@ video {
 
 .footer-content {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 2px;
 	height: 3rem;
@@ -225,6 +286,11 @@ video {
 	color: white;
 	font-size: 30px;
 	padding: 0.8rem;
+
+	&:hover {
+		color: grey;
+	}
+
 }
 
 // Success page
@@ -248,10 +314,6 @@ video {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-}
-
-.content-wrap{
-	flex:1;
 }
 
 // Import Media Queries

@@ -9,7 +9,7 @@ function Projects() {
         <>
             <section class="text-center pb-3 space-top">
                 <div className='container'>
-                    <h2 className='section-title'>My Work</h2>
+                    <h2 className='section-title'>MY WORK</h2>
                     <div className='underline'></div>
              
                 

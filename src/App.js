@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar'
+import Navigbar from './components/Navigbar'
 import Footer from './components/Footer'
 import {BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import './App.scss'
@@ -15,7 +15,7 @@ function App() {
     <>
     <Router>
       <div className="app-container">
-      <Navbar />
+      <Navigbar />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />

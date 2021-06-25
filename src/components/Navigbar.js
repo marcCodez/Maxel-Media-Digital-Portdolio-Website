@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
+import {Nav, Navbar} from 'react-bootstrap';
 
 
 
-function Navbar() {
+function Navigbar() {
     const[click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
         <>
-           <header id='header-home'>
-               <div id='navbar'>
+           {/* <header id='header-home'>
+               <nav id='navbar' className="effect">
 
                <NavLink 
                         exact to="/" 
@@ -72,10 +73,35 @@ function Navbar() {
                        </NavLink>
                    </li>
                </ul>
-               </div>
+               </nav>
             </header> 
+            <div class="nav-wrapper nav-wrapper-4">
+      <nav class="effect">
+       
+      </nav>
+	</div> */}
+
+<Navbar className="effect align-items-center fixed-top justify-content-around nav-container" expand="lg">
+
+      <NavLink exact to='/'  className="navbar-link" >Home</NavLink>
+      <NavLink exact to='/about' className="navbar-link" >About</NavLink>
+      <NavLink exact to='/'>
+      <Navbar.Brand 
+       exact to="/"           
+       className="navbar-logo desktop" 
+        activeClassName='nav-active'
+        onClick={closeMobileMenu}>
+             <img src="/images/logo-v2.png" id="logo" />
+        </Navbar.Brand>
+        </NavLink>
+      <NavLink  exact to='/projects' className="navbar-link" >Projects</NavLink>
+      <NavLink  exact to='/contact' className="navbar-link" >Contact</NavLink>
+
+
+
+</Navbar>
         </>
     )
 }
 
-export default Navbar
+export default Navigbar

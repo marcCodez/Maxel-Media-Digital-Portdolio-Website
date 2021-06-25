@@ -7,7 +7,7 @@ function About() {
             <div className='container'>
                 <div className='about-info'>
                 <div className='heading'>
-            <h1 className='section-title'>ABOUT MAXEL MEDIA</h1>
+            <h1 className='section-title font-weight-bold'>ABOUT MAXEL MEDIA</h1>
             <div className='underline'></div>
             </div>
             <img src='/images/maxpic.jpg' className='about-image'/>
