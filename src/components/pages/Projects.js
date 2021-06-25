@@ -19,7 +19,9 @@ function Projects() {
                         </div> 
                     <div className='project'>
                              <ProjectVideo  url='https://youtu.be/qezBKmfDa3Y'/> 
+
                         </div> 
+
                     <div className='project'>
                              <ProjectVideo  url='https://youtu.be/8Dk2215smvw'/> 
                         </div> 
