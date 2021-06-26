@@ -60,14 +60,14 @@ background: white;
 
 
 // Navbar
-.effect .navbar-link:before {
-	content: "[";
-	left: -5px;
+ .effect .navbar-link:before {
+	content: "[" ;
+	left: -5px ;
   }
   
-  .effect .navbar-link:after {
-	content: "]";
-	right: -5px;
+ .effect .navbar-link:after  {
+	content: "]" ;
+	right: -5px ;
   }
   
   .effect .navbar-link:before,
@@ -84,7 +84,7 @@ background: white;
 	opacity: 0.7;
   }
   
-  .effect .navbar-link:hover:before {
+  .effect .navbar-link:hover:before  {
 	left: -20px;
   }
   
@@ -92,6 +92,12 @@ background: white;
 	right: -20px;
   }
 
+
+  .nav-active {
+	  color: grey !important;
+  }
+ 
+ 
   
   
 // #navbar {

@@ -97,8 +97,8 @@ function Navigbar() {
        
                <Nav  className={click ? 'nav-menu active' : 'nav-menu'}>
             
-      <NavLink exact to='/'  onClick={closeMobileMenu} className="navbar-link" >Home</NavLink>
-      <NavLink exact to='/about' onClick={closeMobileMenu} className="navbar-link" >About</NavLink>
+      <NavLink exact to='/' activeClassName='nav-active'  onClick={closeMobileMenu} className="navbar-link" >Home</NavLink>
+      <NavLink exact to='/about' activeClassName='nav-active' onClick={closeMobileMenu} className="navbar-link" >About</NavLink>
       <NavLink exact to='/'>
       <Navbar.Brand 
        exact to="/"           
@@ -108,8 +108,8 @@ function Navigbar() {
              <img src="/images/logo-v2.png" id="logo" />
         </Navbar.Brand>
         </NavLink>
-      <NavLink  exact to='/projects'  onClick={closeMobileMenu} className="navbar-link" >Projects</NavLink>
-      <NavLink  exact to='/contact'  onClick={closeMobileMenu} className="navbar-link" >Contact</NavLink>
+      <NavLink  exact to='/projects' activeClassName='nav-active'  onClick={closeMobileMenu} className="navbar-link" >Projects</NavLink>
+      <NavLink  exact to='/contact'  activeClassName='nav-active'  onClick={closeMobileMenu} className="navbar-link" >Contact</NavLink>
 
 
       </Nav>
