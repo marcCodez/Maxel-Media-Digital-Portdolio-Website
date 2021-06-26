@@ -29,6 +29,7 @@
 background: white;
 
 
+
 	.navbar-link {
 		color: black;
 
@@ -92,33 +93,46 @@ background: white;
   }
 
   
-#navbar {
+// #navbar {
 	// display: flex;
 	// justify-content: center;
 	// align-items: center;
 	// height: 80px;
 
-	
 
 	.fa-bars {
-		color: white;
+		color: black;
 		font-size: 3rem;
 	}
 
 	.menu-icon {
 		display: none;
+	
 	}
 
 	.nav-menu {
-		display: grid;
+		display: flex;
+		justify-content: space-around;
 		align-items: center;
-		grid-template-columns: repeat(5, auto);
-		grid-gap: 50px;
-		list-style: none;
-		text-align: center;
-		margin-right: 2rem;
+		position: fixed;
+		flex-direction: row;
+		top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+		// grid-template-columns: repeat(5, auto);
+		// grid-gap: 50px;
+		// list-style: none;
+		// text-align: center;
+		// margin-right: 2rem;
+
+		// align-items-center align-items-center fixed-top justify-content-around 
 	}
 
+
+	// .nav-menu.active {
+	// 
+	//   }
 	.nav-item {
 		height: 100px;
 		position: relative;
@@ -127,6 +141,8 @@ background: white;
 		// 	text-decoration: underline;
 		// }
 	}
+
+
 
 	.nav-links {
 		color: #fff;
@@ -151,7 +167,7 @@ background: white;
 	.navbar-logo.desktop {
 		display: block;
 	}
-}
+// }
 
 // Header Content Hero Section
 video {
@@ -172,8 +188,8 @@ video {
 }
 
 .header-container.space-top {
-	// padding-top: 140px;
-	// background-color: black;
+	padding-top: 140px;
+	background-color: white;
 
 	.hero-btns {
 		z-index: 2;
@@ -265,7 +281,6 @@ video {
 .footer-container {
 	background-color: black;
 	display: flex;
-	padding: 1rem 0 2rem 0;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -278,7 +293,6 @@ video {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 2px;
 	height: 3rem;
 }
 
@@ -291,6 +305,10 @@ video {
 		color: grey;
 	}
 
+}
+
+.copyright {
+	margin-bottom: 0.5rem!important;
 }
 
 // Success page

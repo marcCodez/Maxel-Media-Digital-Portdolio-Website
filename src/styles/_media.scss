@@ -1,61 +1,71 @@
 // Tablets and smaller
 @media screen and (max-width: 800px) {
 	// Nav bar
-	// #navbar {
-	// 	width: 100%;
-	// 	justify-content: space-around;
+	#navbar {
+	width: 100%;
+		justify-content: space-around;
 
-	// 	.nav-menu {
-	// 		display: flex;
-	// 		flex-direction: column;
-	// 		width: 100%;
-	// 		height: 90vh;
-	// 		position: absolute;
-	// 		top: 138px;
-	// 		left: -100%;
-	// 		opacity: 1;
-	// 		transition: all 0.5s ease;
-	// 	}
+		.nav-menu {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 90vh;
+			position: absolute;
+			top: 138px;
+			left: -100%;
+			opacity: 1;
 
-	// 	.nav-menu.active {
-	// 		background: #242222;
-	// 		left: 0;
-	// 		opacity: 1;
-	// 		transition: all 0.5s ease;
-	// 		z-index: 1;
-	// 	}
+			// transition: all 5s ease;
+		}
 
-	// 	.nav-links {
-	// 		text-align: center;
-	// 		padding: 2rem;
-	// 		width: 100%;
-	// 		display: table;
-	// 	}
+		.nav-menu.active {
+			flex-direction: column;
+ 	width: 100%;
+ 	height: 90vh;
+ 	position: absolute;
+ 	top: 80px;
+ 	left: -100%;
+ 	opacity: 1;
+ 	transition: all 0.5s ease;
+ 	background: #242222;
+margin-top: 1rem;
+ 	left: 0;
+ 	opacity: 1;
+ 	transition: all 0.5s ease;
+ 	z-index: 20;
+	 	}
 
-	// 	.nav-links:hover {
-	// 		background-color: white;
-	// 		color: black;
-	// 		border-radius: 0;
-	// 	}
+		.navbar-link {
+			text-align: center;
+			padding: 2rem;
+			width: 100%;
+			display: table;
+		}
 
-	// 	.navbar-logo.mobile {
-	// 		display: block;
-	// 	}
+		.navbar-link:hover {
+			background-color: white;
+			color: black;
+			border-radius: 0;
+		}
 
-	// 	.navbar-logo.desktop {
-	// 		display: none;
-	// 	}
+		.navbar-logo.mobile {
+			display: block;
+		}
 
-	// 	.menu-icon {
-	// 		display: block;
-	// 		cursor: pointer;
-	// 	}
+		.navbar-logo.desktop {
+			display: none;
+		}
 
-	// 	.fa-times {
-	// 		color: #fff;
-	// 		font-size: 3rem;
-	// 	}
-	// }
+		.menu-icon {
+			display: block;
+			cursor: pointer;
+		}
+
+		.fa-times {
+			color: black;
+			font-size: 3rem;
+		}
+	}
 
 	.header-container.space-top {
 		.hero-btns {
@@ -125,10 +135,10 @@
 	// Navbar
 	// #navbar .nav-menu {
 	// 	display: block;
-	// 	grid-gap: inherit;
+
 	// }
 
-	// #navbar .nav-links {
+	// #navbar .navbar-link {
 	// 	display: block;
 	// 	margin-bottom: 3rem;
 	// 	padding: 2rem;

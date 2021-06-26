@@ -81,10 +81,24 @@ function Navigbar() {
       </nav>
 	</div> */}
 
-<Navbar className="effect align-items-center fixed-top justify-content-around nav-container" expand="lg">
-
-      <NavLink exact to='/'  className="navbar-link" >Home</NavLink>
-      <NavLink exact to='/about' className="navbar-link" >About</NavLink>
+<Navbar className="effect   nav-container" expand="lg" id="navbar">
+<NavLink 
+                        exact to="/" 
+                        className="navbar-logo mobile" 
+                        activeClassName='nav-active'
+                        onClick={closeMobileMenu}>
+                                <img src="/images/logo-v2.png" id="logo" />
+                        </NavLink>
+                        <div className='menu-icon' onClick={handleClick}>
+                   <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
+               </div>
+            
+                  
+       
+               <Nav  className={click ? 'nav-menu active' : 'nav-menu'}>
+            
+      <NavLink exact to='/'  onClick={closeMobileMenu} className="navbar-link" >Home</NavLink>
+      <NavLink exact to='/about' onClick={closeMobileMenu} className="navbar-link" >About</NavLink>
       <NavLink exact to='/'>
       <Navbar.Brand 
        exact to="/"           
@@ -94,11 +108,11 @@ function Navigbar() {
              <img src="/images/logo-v2.png" id="logo" />
         </Navbar.Brand>
         </NavLink>
-      <NavLink  exact to='/projects' className="navbar-link" >Projects</NavLink>
-      <NavLink  exact to='/contact' className="navbar-link" >Contact</NavLink>
+      <NavLink  exact to='/projects'  onClick={closeMobileMenu} className="navbar-link" >Projects</NavLink>
+      <NavLink  exact to='/contact'  onClick={closeMobileMenu} className="navbar-link" >Contact</NavLink>
 
 
-
+      </Nav>
 </Navbar>
         </>
     )
