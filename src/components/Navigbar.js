@@ -81,13 +81,13 @@ function Navigbar() {
       </nav>
 	</div> */}
 
-<Navbar className="effect   nav-container" expand="lg" id="navbar">
+<Navbar className="effect   nav-container" expand="lg" id="navbar" role="presentation">
 <NavLink 
                         exact to="/" 
                         className="navbar-logo mobile" 
                         activeClassName='nav-active'
                         onClick={closeMobileMenu}>
-                                <img src="/images/logo-v2.png" id="logo" />
+                                <img src="/images/logo-v2.png" id="logo" alt="maxel media logo"/>
                         </NavLink>
                         <div className='menu-icon' onClick={handleClick}>
                    <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
@@ -97,7 +97,7 @@ function Navigbar() {
        
                <Nav  className={click ? 'nav-menu active' : 'nav-menu'}>
             
-      <NavLink exact to='/' activeClassName='nav-active'  onClick={closeMobileMenu} className="navbar-link" >Home</NavLink>
+      <NavLink exact to='/' activeClassName='nav-active'  onClick={closeMobileMenu} className="navbar-link" exact={true}>Home</NavLink>
       <NavLink exact to='/about' activeClassName='nav-active' onClick={closeMobileMenu} className="navbar-link" >About</NavLink>
       <NavLink exact to='/'>
       <Navbar.Brand 

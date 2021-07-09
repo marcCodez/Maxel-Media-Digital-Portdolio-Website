@@ -251,6 +251,7 @@ video {
 	.text-fields {
 		display: grid;
 		grid-template-areas:
+
 			"name subject"
 			"email phone"
 			"message message";
@@ -258,6 +259,9 @@ video {
 		margin-bottom: 1.5rem;
 		margin-top: 1.5rem;
 		// Grid Areas
+		// .name-label {
+		// 	grid-area: nameLabel;
+		// }
 		.name-input {
 			grid-area: name;
 		}

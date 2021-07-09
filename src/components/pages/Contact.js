@@ -21,11 +21,32 @@ function Contact() {
                             <input name="bot-field"/>
                         </div>
                         <div className='text-fields'>
-                            <input required type='text' className='text-input name-input' name='name' placeholder='Full Name'/>
-                            <input required type='email' className='text-input email-input' name='email' placeholder='Email'/>
-                            <input required type='text' className='text-input subject-input' name='subject' placeholder='Subject'/>
-                            <input type='text' className='text-input phone-input' name='phone' placeholder='Phone Number (Optional)'/>
-                            <textarea required type='text' className='text-input message-input' name='message' placeholder='Message'></textarea>
+                       
+                        <div className="name-input d-flex flex-column"> 
+                        <label for="name" className="name-label align-self-start">Full Name*</label>
+                        <input required type='text' className='text-input ' name='name' />
+                        </div>
+                            
+                            <div className="email-input d-flex flex-column">
+                            <label for="email" className="align-self-start">Email*</label>
+                            <input required type='email' className='text-input' name='email' />
+                            </div>
+                            <div className="subject-input d-flex flex-column">
+                            <label for="subject" className="align-self-start">Subject*</label>
+                            <input required type='text' className='text-input' name='subject'/>
+                            </div>
+                            <div className="phone-input d-flex flex-column">
+                            <label for="phone" className="align-self-start">Phone Number (Optional)</label>
+                            <input type='text' className='text-input' name='phone'/>
+                            </div>
+                            <div className="phone-input d-flex flex-column message-input">
+                            <label for="message" className="align-self-start">Message</label>
+                            <textarea required type='text' className='text-input' rows="5"  name='message'></textarea>
+                            </div>
+                            
+                            
+               
+                         
                            
                     </div>
                     <div data-netlify-recaptcha='true'></div>

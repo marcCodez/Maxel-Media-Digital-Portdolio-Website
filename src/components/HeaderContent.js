@@ -17,7 +17,7 @@ const pauseVideo = () => {
 
     return (
         <div className='header-container space-top'>
-            <video ref={vidRef} src="/videos/Showreel-cut-compressed.mp4" autoPlay loop muted/>
+            <video ref={vidRef} src="/videos/Showreel-cut-compressed.mp4" title="Maxel Media video reel" autoPlay loop muted/>
            <div className='hero-btns'>
                <Link
                to='/contact'

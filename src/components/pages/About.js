@@ -10,7 +10,7 @@ function About() {
             <h1 className='section-title font-weight-bold'>ABOUT MAXEL MEDIA</h1>
             <div className='underline'></div>
             </div>
-            <img src='/images/maxpic.jpg' className='about-image'/>
+            <img src='/images/maxpic.jpg' className='about-image' alt="Maxel Media in action holding a camera"/>
             <p className='about-description'>Max Lerion is a content creator based in Sydney, Australia. Under an alias of Maxel Media he has been creating content for over 2 years and has recently started to publish client work on social media less than a year ago. He has worked with numerous brands, businesses and artists in  marketing with his diverse skills in photography and videography. Currently in his final year in a bachelor of Media (Screen and Sound Production), he aims to build his brand as a freelancer into a production company to help cater to businesses around Sydney in digital marketing and to bring visions to reality.</p>
             </div>
             </div>

@@ -12,6 +12,7 @@ function ProjectVideo(props) {
                 pip
                 controls="false"
                 url={props.url}
+                title={props.title}
             />
         </div>
     )
