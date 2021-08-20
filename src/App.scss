@@ -1,5 +1,4 @@
 @import "styles/config";
-@import "styles/item_grid";
 @import "styles/utilities";
 
 
@@ -41,9 +40,7 @@ background: white;
 
   
   }
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    //  color: white;
-}
+
 
   a {
 	text-decoration: none;
@@ -75,7 +72,7 @@ background: white;
 	position: relative;
 	opacity: 0;
 	color: black;
-	top: -1px;
+	// top: -1px;
 	transition: all .5s;
   }
   
@@ -93,19 +90,10 @@ background: white;
   }
 
 
-  .nav-active {
-	  color: grey !important;
-  }
+//   .nav-active {
+// 	  color: grey !important;
+//   }
  
- 
-  
-  
-// #navbar {
-	// display: flex;
-	// justify-content: center;
-	// align-items: center;
-	// height: 80px;
-
 
 	.fa-bars {
 		color: black;
@@ -125,47 +113,28 @@ background: white;
 		position: fixed;
 		flex-direction: row;
 		top: 0;
-    right: 0;
-    left: 0;
+		right: 0;
+		left: 0;
     z-index: 1030;
-		// grid-template-columns: repeat(5, auto);
-		// grid-gap: 50px;
-		// list-style: none;
-		// text-align: center;
-		// margin-right: 2rem;
-
-		// align-items-center align-items-center fixed-top justify-content-around 
 	}
 
 
-	// .nav-menu.active {
-	// 
-	//   }
 	.nav-item {
 		height: 100px;
 		position: relative;
 
-		// .nav-active {
-		// 	text-decoration: underline;
-		// }
+	
 	}
 
 
 
 	.nav-links {
 		color: #fff;
-		// display: flex;
-		// align-items: center;
-		// text-decoration: none;
-		// padding: 0.5rem 1rem;
+
 		height: 100%;
 		position: relative;
 
-		// &:hover {
-		// 	color: $medium-color;
-		// 	font-size: 1.5rem;
-		// 	transition: all 0.2s ease-out;
-		// }
+
 	}
 
 	.navbar-logo.mobile {
@@ -175,9 +144,22 @@ background: white;
 	.navbar-logo.desktop {
 		display: block;
 	}
-// }
+
+
+
+
 
 // Header Content Hero Section
+.header-container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// object-fit: contain;
+	justify-content: center;
+}
+
 video {
 	object-fit: cover;
 	width: 100%;
@@ -185,15 +167,7 @@ video {
 	position: fixed;
 }
 
-.header-container {
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	object-fit: contain;
-	justify-content: center;
-}
+
 
 .header-container.space-top {
 	padding-top: 140px;
@@ -227,10 +201,7 @@ video {
 		margin-bottom: 1.5rem;
 	}
 
-	.underline {
-		grid-area: line;
-	}
-
+	
 	.about-image {
 		grid-area: aboutimg;
 		height: 640px;
@@ -245,6 +216,21 @@ video {
 		line-height: 26px;
 	}
 }
+
+// Projects
+.projects {
+	display: grid;
+	gap: 3rem;
+	grid-template-columns: repeat(2, 1fr);
+	box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+	margin-top: 4rem;
+}
+
+// .project {
+// 	position: relative;
+// 	overflow: hidden;
+// }
+
 
 // Contact Page
 #contact {

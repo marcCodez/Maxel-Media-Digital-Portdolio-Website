@@ -1,4 +1,4 @@
-import React, { useRef} from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 import '../App.scss';
 
@@ -10,9 +10,9 @@ const playVideo = () => {
     vidRef.current.play()
 }
 
-const pauseVideo = () => {
-    vidRef.current.pause()
-}
+// const pauseVideo = () => {
+//     vidRef.current.pause()
+// }
 
 
     return (
@@ -35,13 +35,6 @@ const pauseVideo = () => {
                     >
                        <i class="fa fa-play-circle play-button"></i>
                 </a>
-
-                {/* <a 
-                    onClick={pauseVideo}
-                    aria-label='Play-button'
-                    >
-                       <i class="fa fa-pause-circle pause-button"></i>
-                </a> */}
                 </div>
            </div>
 

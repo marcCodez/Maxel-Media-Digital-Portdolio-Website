@@ -11,8 +11,8 @@
 	}
 
 	// Nav bar
-	#navbar {
-	width: 100%;
+	.nav-container {
+		width: 100%;
 		justify-content: space-around;
 		position: fixed;
 		z-index: 9999;
@@ -23,34 +23,23 @@
 			width: 100%;
 			height: 90vh;
 			position: absolute;
-			top: 138px;
+			 top: 138px;
 			left: -100%;
-			opacity: 1;
+			// opacity: 1;
+			grid-gap: 50px;
 			justify-content: start;
-
-			
-
-			// transition: all 5s ease;
 		}
 		.nav-menu a:nth-of-type(3) {
 			display: none;
 		}
 		.nav-menu.active {
-			flex-direction: column;
-			grid-gap: 50px;
- 	width: 100%;
- 	height: 90vh;
- 	position: absolute;
- 	top: 80px;
- 	left: -100%;
- 	opacity: 1;
- 	transition: all 0.5s ease;
- 	background: black !important;
-margin-top: 1rem;
- 	left: 0;
- 	opacity: 1;
- 	transition: all 0.5s ease;
- 	z-index: 20;
+			top: 80px;
+			background: black !important;
+			margin-top: 1rem;
+			left: 0;
+			// opacity: 1;
+			transition: all 0.5s ease;
+			z-index: 20;
 	 	}
 
 		.navbar-link {
@@ -63,6 +52,7 @@ margin-top: 1rem;
 
 		.navbar-link:hover {
 			background-color: grey;
+			color: white;
 			
 			border-radius: 0;
 		}
@@ -113,10 +103,7 @@ margin-top: 1rem;
 
 	
 
-	// #contact,
-	// #about {
 
-	// }
 }
 
 // Android screens plays homepage video perfectly, remove play button
@@ -154,21 +141,7 @@ margin-top: 1rem;
 		}
 	}
 
-	// Navbar
-	// #navbar .nav-menu {
-	// 	display: block;
 
-	// }
-
-	// #navbar .navbar-link {
-	// 	display: block;
-	// 	margin-bottom: 3rem;
-	// 	padding: 2rem;
-
-	// 	&:hover {
-	// 		color: black;
-	// 	}
-	// }
 
 	// Contact
 	#contact {
