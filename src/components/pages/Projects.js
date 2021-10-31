@@ -7,11 +7,11 @@ import 'aos/dist/aos.css';
 
 
 function Projects() {
-    // useEffect(() => {
-    //     AOS.init({ 
-    //         duration: 1500
-    //     });
-    // }, [])
+    useEffect(() => {
+        AOS.init({ 
+            duration: 1500
+        });
+    }, [])
     return (
         <>
             <section class="text-center pb-3 space-top">
@@ -24,10 +24,10 @@ function Projects() {
                     
                     
                     <div data-aos="fade-up" className='project'>
-                             <ProjectVideo  url='https://www.youtube.com/watch?v=QnO52yyP0bM' title="Modsoc x D2MG"/> 
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=QnO52yyP0bM' title="t-wreckz sorry"/> 
                         </div> 
                     <div data-aos="fade-up" className='project'>
-                             <ProjectVideo  url='https://www.youtube.com/watch?v=KwHGi-0uoCo&t=31s' title="Modsoc x D2MG"/> 
+                             <ProjectVideo  url='https://youtu.be/KwHGi-0uoCo' title="Modsoc x D2MG"/> 
                         </div> 
                     <div data-aos="fade-up" className='project'>
                              <ProjectVideo  url='https://youtu.be/w_MgVugL9pE' title="Sesame Street Broadway"/> 
