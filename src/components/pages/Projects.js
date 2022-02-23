@@ -21,11 +21,27 @@ function Projects() {
              
                 
                     <div className='projects'>
-
-
-
-                    
-                  
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=vH9WS_N3skk' title="UNSW MODSOC 2022"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=GPXLKHE7YqU' title="Tony's Girl Style"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=fCvYn26ugiM' title="Alice's Hip Hop"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=XkViJ8OABY4' title="Taemin| Beatrice's Kpop"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=TyRRqucXYkg' title="Jaye's Kpop"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://youtu.be/dFyDkElDMSk' title="RAENGIRL Promo"/> 
+                        </div> 
+                        <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://youtu.be/0YzKMJ9uLqc' title="t-wreckz Someone Else"/> 
+                        </div> 
                     <div data-aos="fade-up" className='project'>
                              <ProjectVideo  url='https://www.youtube.com/watch?v=QnO52yyP0bM' title="t-wreckz sorry"/> 
                         </div> 
