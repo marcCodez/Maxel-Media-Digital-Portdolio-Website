@@ -22,6 +22,9 @@ function Projects() {
                 
                     <div className='projects'>
                     <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://www.youtube.com/watch?v=CIq_yP6SSE4' title="MDA promo video"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
                              <ProjectVideo  url='https://www.youtube.com/watch?v=vH9WS_N3skk' title="UNSW MODSOC 2022"/> 
                         </div>
                     <div data-aos="fade-up" className='project'>
