@@ -22,6 +22,12 @@ function Projects() {
                 
                     <div className='projects'>
                     <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://youtu.be/XvJvJMaL6X8' title="CLUB REELCOMPILATIONS"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
+                             <ProjectVideo  url='https://youtube.com/shorts/0dLg8FrAQ5Y' title="dj promo"/> 
+                        </div>
+                    <div data-aos="fade-up" className='project'>
                              <ProjectVideo  url='https://youtu.be/-JgfW9hrO7g' title="Cy and Marielle"/> 
                         </div>
                     <div data-aos="fade-up" className='project'>
