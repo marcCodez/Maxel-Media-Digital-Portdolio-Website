@@ -25,7 +25,7 @@ function Projects() {
                              <ProjectVideo  url='https://youtu.be/XvJvJMaL6X8' title="CLUB REELCOMPILATIONS"/> 
                         </div>
                         <div data-aos="fade-up" className='project'>
-                             <ProjectVideo  url='https://youtu.be/XvJvJMaL6X8' title="CLUB REELCOMPILATIONS"/> 
+                             <ProjectVideo  url='https://www.dropbox.com/s/sq40c2jr5fnwx4w/CRUISE_PROMO.mp4?dl=0' title="cruise promo"/> 
                         </div>
                    
                         {/* <div data-aos="fade-up" className='project'>
